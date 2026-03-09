@@ -14,7 +14,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
 # Usando puerto 6543 (Connection Pooler de Supabase) para evitar restricciones Serverless
-DB_CONNECTION_STRING = os.environ.get("DB_URI", "postgresql+pg8000://postgres.hffjkhhouhweguptxzyo:JuanAnalytics2026@aws-0-us-west-2.pooler.supabase.com:6543/postgres")
+DB_CONNECTION_STRING = os.environ.get("DB_URI", "postgresql+pg8000://postgres.hffjkhhouhweguptxzyo:TU_CONTRASEÑA_ACA@aws-0-us-west-2.pooler.supabase.com:6543/postgres")
 
 def lambda_handler(event=None, context=None):
     """
