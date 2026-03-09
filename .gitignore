@@ -1,0 +1,13 @@
+# Entornos Virtuales
+venv/
+env/
+.env
+
+# Archivos compilados en Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos locales o temporales
+*.csv
+.DS_Store
